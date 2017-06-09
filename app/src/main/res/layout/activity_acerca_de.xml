@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.krivic.lasmascotitasv3.AcercaDe"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp"
+    android:layout_marginBottom="6dp"
+    >
+    <include
+        android:id="@+id/toolB2"
+        layout="@layout/actionbar_favoritos" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/txNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="   ID: PVG"
+        android:layout_marginBottom="6dp"/>
+    <TextView
+        android:id="@+id/txModulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="   Curso 3 Andnroid"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:id="@+id/tvTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textSize="18dp"
+        android:text="   Semana: 5"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:id="@+id/tvAnno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textSize="18dp"
+        android:text="   Año: 2017"
+        android:layout_marginBottom="6dp"/>
+
+</LinearLayout>

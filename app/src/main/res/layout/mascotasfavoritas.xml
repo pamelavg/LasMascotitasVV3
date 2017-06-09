@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.krivic.lasmascotitasv3.MascotasFavoritas">
+
+    <include
+        android:id="@+id/toolB2"
+        layout="@layout/actionbar_favoritos" />
+
+    <TextView
+        android:id="@+id/tvMascota"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Favoritas"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMascotasFav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvMascota"
+        android:padding="18dp" />
+
+</LinearLayout>

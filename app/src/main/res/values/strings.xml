@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Las Mascotitas</string>
+    <string name="MascotaB">Mascota B</string>
+    <string name="MascotaD">Mascota D</string>
+    <string name="MascotaE">Mascota E</string>
+    <string name="MascotaA">Mascota A</string>
+    <string name="MascotaC">Mascota C</string>
+    <string name="Nombre">Mascota</string>
+    <string name="Favoritas">Mascotas favoritas</string>
+    <string name="ArrayMAscotas">MascotasArray</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Acerca">Acerca de</string>
+    <string name="NombreContacto">Nombre</string>
+    <string name="Correo">Correo</string>
+    <string name="Enviar">Enviar Comentario</string>
+    <string name="Mensaje">Comentario Enviado</string>
+    <string name="mContacto">Contacto</string>
+    <string name="mAcerca">Acerca de</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
